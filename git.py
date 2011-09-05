@@ -42,8 +42,6 @@ class GitCommand(sublime_plugin.WindowCommand):
         working_dir = os.path.dirname(self.window.active_view().file_name())
         selected_command = GitCommand.commands[index]
 
-        # self.window.show_input_panel("caption", "initial_text", None, None, None)
-
         cmd = ["git"]
         cmd.extend(selected_command["arguments"])
         cmd.append(active_file)
