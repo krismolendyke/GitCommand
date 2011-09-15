@@ -17,6 +17,11 @@ class GitCommand(sublime_plugin.WindowCommand):
             "syntax_file": "Packages/Diff/Diff.tmLanguage"
         },
         {
+            "description": "Diff",
+            "arguments": ["diff", "--patch-with-stat"],
+            "syntax_file": "Packages/Diff/Diff.tmLanguage"
+        },
+        {
             "description": "Blame",
             "arguments": ["blame"],
             "syntax_file": "based_on_extension"
