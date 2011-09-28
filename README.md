@@ -1,5 +1,11 @@
 # GitCommand
 
+## Preamble
+
+I began writing this plugin because I was dissatisfied with the available Sublime Text 2 & `git` integration available at the time.  It met my spartan needs (I still prefer `git` interaction from the command line most often) and I thought it might be useful to others. Since then there has emerged a [very full-featured plugin](https://github.com/kemayo/sublime-text-2-git/wiki) that may be more of what you are looking for.
+
+## So, what is this, then?
+
 GitCommand is a [WindowCommand](http://www.sublimetext.com/docs/2/api_reference.html#sublime.Window) for running simple [git](http://git-scm.com/) commands from within
 [Sublime Text 2](http://www.sublimetext.com/2).  Instead of using the Default exec.py implementation which
 outputs to the [Build Results](http://sublimetext.info/docs/en/reference/build_systems.html) window, it creates a new scratch file in its own
